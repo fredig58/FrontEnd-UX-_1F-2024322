@@ -1,0 +1,49 @@
+body {
+    background-color: #dfdcdc;
+    text-align: center;
+    color: #000108;
+    font-size: 15px;
+
+}
+
+.usuario{
+    border-top-width: 2em;
+    border: 1px solid #dfdcdc; /* Color del borde, debe ser más oscuro que fondo */
+	background: #9dbde7; /* Fondo */
+	border-radius: 6px;  /* Bordes redondos */
+
+}
+
+.mascota{
+    border-top-width: 2em;
+    border: 1px solid #dfdcdc; /* Color del borde, debe ser más oscuro que fondo */
+	background: #9dbde7; /* Fondo */
+	border-radius: 6px;  /* Bordes redondos */
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+button {
+    padding: 5px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px #756eda;
+
+}
+
+input {
+    background-color: #e8f0ed;
+    border: solid 1px #becac6;
+    border-radius: 3px;
+    font-size: 12px;
+
+}
+

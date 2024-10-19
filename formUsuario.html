@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleUsuario.css">
+    <script src="./getUsuario.js"></script>
+    <tittle>Registrar</tittle>
+
+</head>
+
+<body>
+    <h1> Registro Usuario & Mascota </h1>
+    <div class="usuario">
+        <br>
+        <label> Nombre </label> <input type="text" id="nombre"> <br><br>
+        <label> Apellido </label> <input type="text" id="apellido"> <br><br>
+        <label> Cédula </label><input type="number" id="id"> <br><br>
+        <label> Telefono </label> <input type="tel" id="tel"> <br><br>
+        <label> Email </label> <input type="email" id="email"> <br><br>
+        <label> Password </label> <input type="password" id="pass"> <br><br>
+        
+    </div>
+
+    <div class="mascota">
+        <br><br>
+        <label> Nombre Mascota </label> <input type="text" id="nombreMascota"> <br><br>
+        <label> Edad </label> <input type="number" id="edad"> <br><br>
+
+        <select name="Tipo Mascota" id="seleccion">
+            <option value="perro"> Perro </option>
+            <option value="gato"> Gato </option>
+            <option value="ave"> Ave </option>
+        </select> <br><br>
+
+    </div>
+    <br><br>
+    <button onclick="registrarUsuario()" type="submit"> Registrar </button> <br><br>
+        <a href="home.html"> Volver </a>
+
+</body>
+
+</html>
